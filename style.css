@@ -2,25 +2,14 @@
     --light-blue: #D9E2F3;
     --light-green: #E2EFD9;
     --light-orange: #FBE4D5;
+    --light-yellow: #ffe69a;
+    --pure-green: #00FF00;
+    --pure-yellow: #FFFF00;
+    --pure-blue: #00FFFF;
 }
 
 * {
     padding: 0;
-}
-
-body {
-    background-color: rgb(239, 239, 239);
-    font-family: 標楷體, 'Times New Roman', Times, serif;
-}
-
-table {
-    text-align: center;
-    border-collapse: collapse;
-}
-
-td {
-    border: 1px #000000 solid;
-    padding: .5rem;
 }
 
 .blue {
@@ -33,4 +22,160 @@ td {
 
 .orange {
     background-color: var(--light-orange);
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(239, 239, 239);
+    font-family: 標楷體;
+}
+
+.section-1 {
+    margin-bottom: 5rem;
+}
+
+.section-1 .part-1 h1 {
+    width: fit-content;
+    background-color: var(--light-yellow);
+}
+
+.section-1 .part-2 p {
+    background-color: var(--light-orange);
+    width: fit-content;
+    font-size: 20px;
+}
+
+.section-1 .part-2 ul {
+    list-style-position: inside;
+}
+
+.section-1 .part-2 li {
+    width: fit-content;
+    font-size: 20px;
+}
+
+.section-1 .part-2 li p {
+    display: inline;
+    background-color: var(--light-orange);
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px #000000 solid;
+    padding: .5rem;
+}
+
+.part-2 {
+    margin: 2rem 0;
+}
+
+.part-3 {
+    margin: 3rem 0;
+}
+
+.section-2 {
+    margin-bottom: 5rem;
+}
+
+.section-2 h1 {
+    background-color: var(--pure-green);
+    width: fit-content;
+    font-style: italic;
+}
+
+.section-2 p#name {
+    background-color: var(--pure-yellow);
+    width: fit-content;
+    font-size: 20px;
+}
+
+.section-2 p {
+    margin: .5rem;
+    line-height: 1.5;
+}
+
+.section-2 .part-2 h2 {
+    font-size: 20px;
+}
+
+.section-2 .part-2 h3 {
+    font-size: 18px;
+}
+
+.section-2 .part-2 .block {
+    margin: 2rem 0;
+}
+
+.section-2 .part-2 .block ol {
+    margin-left: 1rem;
+    list-style-position: inside;
+}
+
+.section-2 .part-2 .block ol li {
+    margin: 5px 0;
+}
+
+.section-2 .part-2 .block article {
+    line-height: 1.5;
+}
+
+.section-2 .part-2 .block article em {
+    background-color: var(--pure-blue);
+    font-style: normal;
+}
+
+.section-2 .part-2 .block .block-2 {
+    margin: 2rem .5rem 2rem 2rem;
+}
+
+.section-3 {
+    margin: 2rem 0;
+}
+
+.section-3 h1 {
+    background-color: var(--pure-blue);
+    color: red;
+    width: fit-content;
+}
+
+.section-3 p {
+    margin: .5rem 0 ;
+}
+
+.section-3 .block .h-2 {
+    font-size: 20px;
+    font-style: normal;
+    margin: 3rem 0 1rem 0;
+}
+
+.section-3 .block .h-2 a {
+    font-family: 標楷體;
+    text-decoration: none;
+    color: #000000;
+}
+
+.section-3 .study-team .h-2 {
+    background-color: var(--pure-yellow);
+    width: fit-content;
+}
+
+.section-3 .course .h-2 {
+    background-color: var(--pure-green);
+    width: fit-content;
+    font-weight: bold;
+}
+
+.section-3 .system .h-2 {
+    background-color: var(--pure-green);
+    width: fit-content;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.5rem;
 }
